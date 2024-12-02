@@ -1,0 +1,16 @@
+$PSVersionTable -> Provids PowerShell version, and your platform and edition
+```
+PS /home/abhimanyu> $PSVersionTable
+
+Name                           Value
+----                           -----
+PSVersion                      7.4.5
+PSEdition                      Core
+GitCommitId                    7.4.5
+OS                             CBL-Mariner/Linux
+Platform                       Unix
+PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0…}
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+WSManStackVersion              3.0
+```
