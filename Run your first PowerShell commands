@@ -1,6 +1,7 @@
 $PSVersionTable -> Provids PowerShell version, and your platform and edition
 PS /home/abhimanyu> $PSVersionTable
 
+
 Name                           Value
 ----                           -----
 PSVersion                      7.4.5
@@ -13,3 +14,11 @@ PSRemotingProtocolVersion      2.3
 SerializationVersion           1.1.0.1
 WSManStackVersion              3.0
 
+--------------------------------------------------------
+$PSVersionTable.PSVersion -> Running $PSVersionTable results in output that looks like a table, but is actually an object. For this reason, you can use a period (.) to access a specific property, such as PSVersion
+
+Major  Minor  Patch  PreReleaseLabel BuildLabel
+-----  -----  -----  --------------- ----------
+7      3      6
+
+--------
