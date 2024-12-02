@@ -1,0 +1,16 @@
+PS /home/abhimanyu> Get-Command -Noun File*                                                         
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Export-File                                        0.9.3      PSCloudShellUtility
+Cmdlet          Get-FileHash                                       7.0.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Out-File                                           7.0.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Unblock-File                                       7.0.0.0    Microsoft.PowerShell.Utility
+
+PS /home/abhimanyu> Get-Command -Verb Get -Noun File*                                              
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-FileHash                                       7.0.0.0    Microsoft.PowerShell.Utility
+
+
